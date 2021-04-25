@@ -7,7 +7,11 @@ Press CTRL + I to toggle on or off<br>
 Press CTRL + C to stop the program.<br>
 
 # It doesn't works at all. What can I do ?
-You can try to manually install required packages !<br>
+Now, there is an alternative launcher, called<br>
+AutoClicker-Alt.bat<br>
+or<br>
+You can try to manually install required packages !
+
 Try these commands:
 
 - pip install mouse

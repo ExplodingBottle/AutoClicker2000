@@ -15,6 +15,7 @@ print("Welcome to AutoClicker 2000 !")
 print("Remember, use CTRL + I to toggle the left click autoclicker on or off")
 print("Remember, use CTRL + O to toggle the right click autoclicker on or off")
 print("And use CTRL + C to stop.")
+
 calcClickPerSeconds = 1 / int(input("Enter the number of CPS you want: "))
 
 def signal_handler(sig, frame):
@@ -49,19 +50,16 @@ def tryLc(val):
     global isCtrlOn, isOn
     if isCtrlOn:
         isOn = not isOn
-        time.sleep(0.9)
         if isOn:
+            lcThreadOb = threading.Thread(target=lcThread)
             lcThreadOb.start()
 def tryRc(val):
     global isCtrlOn, isOn2
     if isCtrlOn:
         isOn2 = not isOn2
-        time.sleep(0.9)
         if isOn2:
+            rcThreadOb = threading.Thread(target=rcThread)
             rcThreadOb.start()
-
-lcThreadOb = threading.Thread(target=lcThread)
-rcThreadOb = threading.Thread(target=rcThread)
 
 keyboard.on_press_key(key='control', callback=ctrlOnCallback)
 keyboard.on_release_key(key='control', callback=ctrlOffCallback)
