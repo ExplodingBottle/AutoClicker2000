@@ -2,9 +2,9 @@
 
 # How to use ?
 Launch AutoClicker.bat.<br>
+Enter the key you want to use to toggle left click autoclicker<br>
+Then, enter the key you want to use to toggle right click autoclicker<br>
 Then enter the number of CPS you want( warning, at a certain point, real CPS is lower than the one you entered. )<br>
-Press CTRL + I to toggle on or off<br>
-Press CTRL + C to stop the program.<br>
 
 # It doesn't works at all. What can I do ?
 Now, there is an alternative launcher, called<br>
