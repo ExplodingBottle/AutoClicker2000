@@ -16,9 +16,11 @@ Try these commands:
 
 - pip install mouse
 - pip install keyboard
+- pip install wxpython
 or
 - pip3 install mouse
 - pip3 install keyboard
+- pip3 install wxpython
 
 and then, launch it !
 
