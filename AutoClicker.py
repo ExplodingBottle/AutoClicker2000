@@ -15,8 +15,8 @@ wxApp = App()
 
 print("Welcome to AutoClicker 2000 !")
 print("And use CTRL + C to stop.")
-keyLeft = input("Enter the key you want to use to toggle on or off AutoClicker2000: ")
-keyRight = input("Enter the key you want to use to toggle on or off AutoClicker2000: ")
+keyLeft = input("Enter the key you want to use to toggle on or off the left autoclicker: ")
+keyRight = input("Enter the key you want to use to toggle on or off the right autoclicker: ")
 
 calcClickPerSeconds = 1 / int(input("Enter the number of CPS you want: "))
 
