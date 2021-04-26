@@ -28,3 +28,6 @@ or
 
 # Where can I find Python ?
 Go here: https://python.org
+
+# How can I know if my Auto Clicker is toggled on or off ?
+Check the tray icon with the mouse.
