@@ -2,3 +2,5 @@ You should remove the "gimp" folder from the "images" folder.
 After,
 Compress all to an archive, named autoclicker2000_release_v$.zip
 Where $ is the version.
+
+You should remove this file too.
