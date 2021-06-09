@@ -24,13 +24,13 @@ calcClickPerSeconds = 1 / int(input("Enter the number of CPS you want: "))
 def update_icon():
     global taskbarIcon, isOn, isOn2
     if not isOn and not isOn2:
-        taskbarIcon.SetIcon(Icon("not_used.ico"), "AutoClicker2000")
+        taskbarIcon.SetIcon(Icon("images/not_used.ico"), "AutoClicker2000")
     if isOn and not isOn2:
-        taskbarIcon.SetIcon(Icon("used_left.ico"), "AutoClicker2000")
+        taskbarIcon.SetIcon(Icon("images/used_left.ico"), "AutoClicker2000")
     if not isOn and isOn2:
-        taskbarIcon.SetIcon(Icon("used_right.ico"), "AutoClicker2000")
+        taskbarIcon.SetIcon(Icon("images/used_right.ico"), "AutoClicker2000")
     if isOn and isOn2:
-        taskbarIcon.SetIcon(Icon("used_both.ico"), "AutoClicker2000")
+        taskbarIcon.SetIcon(Icon("images/used_both.ico"), "AutoClicker2000")
 
 def signal_handler(sig, frame):
     print("Stopping program...")
@@ -76,7 +76,7 @@ keyboard.on_press_key(key=keyRight, callback=tryRc)
 signalevent = signal.signal(signal.SIGINT, signal_handler)
 
 taskbarIcon = TaskBarIcon()
-taskbarIcon.SetIcon(Icon("not_used.ico"), "AutoClicker2000")
+taskbarIcon.SetIcon(Icon("images/not_used.ico"), "AutoClicker2000")
 
 while True:
     time.sleep(60)
