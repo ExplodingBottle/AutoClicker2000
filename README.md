@@ -31,9 +31,9 @@ or
 
 and then, launch it !
 
-- python AutoClicker.py\
+- ```python AutoClicker.py```\
 or
-- python3 AutoClicker.py
+- ```python3 AutoClicker.py```
 
 ## Where can I find Python ?
 
